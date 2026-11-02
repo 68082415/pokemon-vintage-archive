@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story | Pokémon Vintage Archive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="brand">POKÉMON ARCHIVE</div>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="story.html" class="active">STORY</a>
+        <a href="collection.html">COLLECTION</a>
+        <a href="about.html">ABOUT</a>
+    </nav>
+</header>
+
+<main class="archive-page">
+
+    <p class="eyebrow">VINTAGE COLLECTION / 1999</p>
+    <h1 class="archive-title">EXPLORE THE COLLECTION</h1>
+    <p class="archive-intro">
+        ย้อนชมการ์ด Pokémon TCG ยุคคลาสสิก
+        ตั้งแต่ Base Set, Jungle ไปจนถึง Fossil
+        ผ่านผลงานศิลปะบนการ์ดที่เป็นเอกลักษณ์
+    </p>
+
+    <div class="filter-menu">
+        <button class="filter-btn active"
+                data-filter="all">ALL CARDS</button>
+        <button class="filter-btn"
+                data-filter="base">BASE SET</button>
+        <button class="filter-btn"
+                data-filter="jungle">JUNGLE</button>
+        <button class="filter-btn"
+                data-filter="fossil">FOSSIL</button>
+    </div>
+
+    <div class="archive-grid">
+
+        <!-- BASE SET -->
+        <article class="archive-card" data-set="base">
+            <img src="https://images.pokemontcg.io/base1/4.png"
+                 alt="Charizard Base Set" loading="lazy">
+            <h3>CHARIZARD</h3>
+            <p>BASE SET · 4/102</p>
+        </article>
+
+        <article class="archive-card" data-set="base">
+            <img src="https://images.pokemontcg.io/base1/2.png"
+                 alt="Blastoise Base Set" loading="lazy">
+            <h3>BLASTOISE</h3>
+            <p>BASE SET · 2/102</p>
+        </article>
+
+        <article class="archive-card" data-set="base">
+            <img src="https://images.pokemontcg.io/base1/15.png"
+                 alt="Venusaur Base Set" loading="lazy">
+            <h3>VENUSAUR</h3>
+            <p>BASE SET · 15/102</p>
+        </article>
+
+        <article class="archive-card" data-set="base">
+            <img src="https://images.pokemontcg.io/base1/14.png"
+                 alt="Raichu Base Set" loading="lazy">
+            <h3>RAICHU</h3>
+            <p>BASE SET · 14/102</p>
+        </article>
+
+        <!-- JUNGLE -->
+        <article class="archive-card" data-set="jungle">
+            <img src="https://images.pokemontcg.io/base2/3.png"
+                 alt="Flareon Jungle" loading="lazy">
+            <h3>FLAREON</h3>
+            <p>JUNGLE · 3/64</p>
+        </article>
+
+        <article class="archive-card" data-set="jungle">
+            <img src="https://images.pokemontcg.io/base2/4.png"
+                 alt="Jolteon Jungle" loading="lazy">
+            <h3>JOLTEON</h3>
+            <p>JUNGLE · 4/64</p>
+        </article>
+
+        <article class="archive-card" data-set="jungle">
+            <img src="https://images.pokemontcg.io/base2/11.png"
+                 alt="Snorlax Jungle" loading="lazy">
+            <h3>SNORLAX</h3>
+            <p>JUNGLE · 11/64</p>
+        </article>
+
+        <article class="archive-card" data-set="jungle">
+            <img src="https://images.pokemontcg.io/base2/12.png"
+                 alt="Vaporeon Jungle" loading="lazy">
+            <h3>VAPOREON</h3>
+            <p>JUNGLE · 12/64</p>
+        </article>
+
+        <!-- FOSSIL -->
+        <article class="archive-card" data-set="fossil">
+            <img src="https://images.pokemontcg.io/base3/2.png"
+                 alt="Articuno Fossil" loading="lazy">
+            <h3>ARTICUNO</h3>
+            <p>FOSSIL · 2/62</p>
+        </article>
+
+        <article class="archive-card" data-set="fossil">
+            <img src="https://images.pokemontcg.io/base3/4.png"
+                 alt="Dragonite Fossil" loading="lazy">
+            <h3>DRAGONITE</h3>
+            <p>FOSSIL · 4/62</p>
+        </article>
+
+        <article class="archive-card" data-set="fossil">
+            <img src="https://images.pokemontcg.io/base3/5.png"
+                 alt="Gengar Fossil" loading="lazy">
+            <h3>GENGAR</h3>
+            <p>FOSSIL · 5/62</p>
+        </article>
+
+        <article class="archive-card" data-set="fossil">
+            <img src="https://images.pokemontcg.io/base3/10.png"
+                 alt="Lapras Fossil" loading="lazy">
+            <h3>LAPRAS</h3>
+            <p>FOSSIL · 10/62</p>
+        </article>
+
+    </div>
+</main>
+
+<footer>
+    <p>POKÉMON VINTAGE ARCHIVE</p>
+    <p>A PERSONAL COLLECTION PROJECT</p>
+    <small>Card images via Pokémon TCG API. Unofficial fan project.</small>
+</footer>
+
+</body>
+</html>

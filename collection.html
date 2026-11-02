@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection | Pokémon Vintage Archive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/collection.js" defer></script>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <div class="brand">POKÉMON ARCHIVE</div>
+
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="story.html">STORY</a>
+            <a href="collection.html" class="active">
+                COLLECTION
+            </a>
+            <a href="about.html">ABOUT</a>
+        </nav>
+    </header>
+
+    <main class="detail-page">
+
+        <a href="story.html" class="detail-back">
+            ← BACK TO THE ARCHIVE
+        </a>
+
+        <!-- CARD DETAIL -->
+        <section class="detail-layout">
+
+            <div class="detail-art">
+                <img
+                    id="detail-image"
+                    src="https://images.pokemontcg.io/base1/4.png"
+                    alt="Charizard Pokémon Card"
+                >
+            </div>
+
+            <div class="detail-info">
+
+                <p class="eyebrow">
+                    VINTAGE CARD / 1999
+                </p>
+
+                <h1 id="detail-name">CHARIZARD</h1>
+
+                <p class="detail-subtitle">
+                    THE ORIGINAL POKÉMON COLLECTION
+                </p>
+
+                <p id="detail-description">
+                    การ์ด Pokémon ยุคคลาสสิก
+                    ที่มีเอกลักษณ์ด้านภาพประกอบ
+                    และเป็นส่วนหนึ่งของประวัติศาสตร์ TCG
+                </p>
+
+                <div class="detail-facts">
+
+                    <div class="fact">
+                        <span>SET NAME</span>
+                        <strong id="detail-set">BASE SET</strong>
+                    </div>
+
+                    <div class="fact">
+                        <span>CARD NUMBER</span>
+                        <strong id="detail-number">4/102</strong>
+                    </div>
+
+                    <div class="fact">
+                        <span>RELEASE YEAR</span>
+                        <strong id="detail-year">1999</strong>
+                    </div>
+
+                    <div class="fact">
+                        <span>RARITY</span>
+                        <strong id="detail-rarity">Rare Holo</strong>
+                    </div>
+
+                </div>
+
+                <a href="story.html" class="hero-button">
+                    VIEW ALL CARDS →
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- SELECT ANOTHER CARD -->
+        <section class="detail-more">
+
+            <p class="eyebrow">DISCOVER MORE</p>
+
+            <h2>EXPLORE MORE CARDS</h2>
+
+            <p class="detail-hint">
+                เลือกการ์ดด้านล่างเพื่อดูข้อมูลเพิ่มเติม
+            </p>
+
+            <div id="card-picker" class="card-picker">
+                <!-- JavaScript จะเพิ่มการ์ดที่นี่ -->
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>POKÉMON VINTAGE ARCHIVE</p>
+        <p>A PERSONAL COLLECTION PROJECT</p>
+        <small>
+            Card images via Pokémon TCG API.
+            Unofficial fan project.
+        </small>
+    </footer>
+
+</body>
+</html>
